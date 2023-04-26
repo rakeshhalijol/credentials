@@ -10,7 +10,7 @@ user = credentials.get("user")
 password = credentials.get("password")
 print(user, password)
 client = connect(
-    f"mongodb+srv://{user}:{password}@cluster0.inydvtx.mongodb.net/test")
+    f"mongodb+srv://rakeshhalijol:Rakesh123@cluster0.inydvtx.mongodb.net/test")
 db = create_database(client=client, db_name="NATIVE-DATABASE")
 
 
