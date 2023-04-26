@@ -18,3 +18,4 @@ APP_WORKER = int(os.getenv("APP_WORKER", 1))
 
 # Endpoint to Swagger UI
 SWAGGER_ENDPOINT = os.getenv("SWAGGER_ENDPOINT", "/docs")
+MONGO_CREDENTIALS_PATH = "secrets/mongo-credentials.json"
