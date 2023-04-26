@@ -10,7 +10,7 @@ from src.config import MONGO_CREDENTIALS_PATH
 # password = credentials.get("password")
 # print(user, password)
 client = connect(
-    f"mongodb+srv://rakeshhalijol:Rakesh123@cluster0.inydvtx.mongodb.net/test")
+    "mongodb+srv://rakeshhalijol:Rakesh123@cluster0.inydvtx.mongodb.net/test")
 db = create_database(client=client, db_name="NATIVE-DATABASE")
 
 
